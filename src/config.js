@@ -39,7 +39,9 @@ export const celebrationConfig = {
 
   // Features & Toggles
   features: {
-    graffiti: "stars", // Options: "none", "hearts", "cakes", "stars"
+    // Options: "none", "hearts", "cakes", "stars", "combined" or any other combination you like
+    graffiti: ["hearts", "stars"],
+    graffitiColor: "#ffffff", // Default graffiti color (hex code)
     showPhotos: true,
     showButton: true,
   },

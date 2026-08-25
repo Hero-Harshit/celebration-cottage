@@ -30,7 +30,7 @@ const MidnightTheme = ({ config }) => {
     <div className={`relative min-h-screen bg-black text-[#F5F5F7] font-sans selection:bg-[#2997FF] selection:text-white ${appearance?.backgroundColor || ''} ${appearance?.primaryTextColor || ''}`}>
       
       {/* Background Graffiti */}
-      <Graffiti type={features.graffiti} />
+      <Graffiti type={features.graffiti} color={features.graffitiColor || "#ffffff"} />
       
       {/* Cinematic Hero Section */}
       <section className="relative z-10 min-h-[90vh] flex flex-col items-center justify-center px-6 overflow-hidden">
